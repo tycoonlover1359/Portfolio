@@ -18,10 +18,10 @@ This is a collection of projects I've undertaken over my programming time, usual
 # Failed Labs Discord Bot
 A planned Discord bot that was never officially announced or released. Intended to be a custom built bot that handled all required tasks of a friend's Roblox and Discord group: Failed Labs. Built in Python using `discord.py`, it utilized Amazon Web Services as its main data backend (database and storage) and served as the main way I learned what I know about Python. The project has since been abandoned due to a lack of enthusiasm in advertising or otherwise "starting up" the group.
 
-| Item              | Link                             |
-| ----------------- | -------------------------------- |
-| Language          | Python                           |
-| GitHub Repository |                                  |
+| Item              | Link                                                           |
+| ----------------- | -------------------------------------------------------------- |
+| Language          | Python                                                         |
+| GitHub Repository | https://github.com/Failed-Laboratories/Failed-Labs-Discord-Bot |
 
 # Minecraft Security System
 This is a security system for Modded Minecraft designed to use websockets to communicate with the back end. This is intended to be used with ComputerCraft, though could be adapted to be compatible with OpenComputers. The clients were built using ComputerCraft Lua, and the back end was built using Python. Data related to each security system network is stored in Amazon DynamoDB, with Amazon API Gateway handling connections and routes, and AWS Lambda handling the back end authentication and route logic (what each route is supposed to do). The project is projected to be fairly inexpensive (though not necessarily free) with just one or two networks connected 24/7, however more networks (and/or rapid command usage) can impact costs incurred. 

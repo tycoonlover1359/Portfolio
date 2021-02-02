@@ -9,6 +9,7 @@ This is a collection of projects I've undertaken over my programming time, usual
 
 # Projects
 - [Failed Labs Discord Bot (Abandoned)](#failed-labs-discord-bot)
+- [Minecraft Security System](#minecraft-security-system)
 - [Personal Website (Active-ish)](#personal-website)
 - [SCiPNET Terminal (Inactive)](#scipnet-terminal)
 - [SlackMail (Active-ish)](#slackmail)
@@ -18,7 +19,16 @@ A planned Discord bot that was never officially announced or released. Intended 
 
 | Item              | Link                             |
 | ----------------- | -------------------------------- |
+| Language          | Python                           |
 | GitHub Repository |                                  |
+
+# Minecraft Security System
+This is a security system for Modded Minecraft designed to use websockets to communicate with the back end. This is intended to be used with ComputerCraft, though could be adapted to be compatible with OpenComputers. The clients were built using ComputerCraft Lua, and the back end was built using Python. Data related to each security system network is stored in Amazon DynamoDB, with Amazon API Gateway handling connections and routes, and AWS Lambda handling the back end authentication and route logic (what each route is supposed to do). The project is projected to be fairly inexpensive (though not necessarily free) with just one or two networks connected 24/7, however more networks (and/or rapid command usage) can impact costs incurred. 
+
+| Item              | Link                                                         |
+| ----------------- | ------------------------------------------------------------ |
+| Language          | ComputerCraft Lua, Python                                    |
+| GitHub Repository | https://github.com/tycoonlover1359/Minecraft-Security-System |
 # Personal Website
 My personal website, hosted on [HelioHost](https://heliohost.net) and accessible at https://tycoonlover1359.omg.lol/. Built using Python and Flask, it is a relatively simple website that tells people a little bit about myself, including my interests, the languages I know, and the services I have experience with. It also features (an as of publication, unused) blog function that uses Amazon S3 to store blog posts (since HelioHost limits their free storage to 1 GB per person, though it is expandable by donating to them). The site also uses Amazon Simple Email Service in combination with AWS Lambda to handle alerting people that I've received their message to me (messages sent via the contact form at the bottom of the home page). The website is then served via either HelioHost directly or the [Arc.io](https://arc.io/) peer-to-peer CDN, the latter of which pays me small amounts as people view the website.
 
@@ -30,6 +40,7 @@ This project is technically maintained, as I use it to handle webhooks during te
 
 | Item              | Link                             |
 | ----------------- | -------------------------------- |
+| Language          | HTML, CSS, JavaScript, Python    |
 | Link              | https://tycoonlover1359.omg.lol/ |
 | GitHub Repository |                                  |
 | Domain Registrar  | https://omg.lol/                 |
@@ -41,6 +52,7 @@ This project is not often used, but is still fun for me to play with, so I somet
 
 | Item              | Link                             |
 | ----------------- | -------------------------------- |
+| Language          | HTML, CSS, JavaScript, Python    |
 | GitHub Repository |                                  |
 
 # SlackMail
@@ -52,4 +64,5 @@ This project, whlie not exactly maintined in any official capacity, is still use
 
 | Item              | Link                             |
 | ----------------- | -------------------------------- |
+| Language          | Python                           |
 | GitHub Repository |                                  |

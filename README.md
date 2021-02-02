@@ -8,17 +8,17 @@ This is a collection of projects I've undertaken over my programming time, usual
 - **Abandoned** - The project is rarely, if ever, used in its current state, and there are no plans to update it for any reason.
 
 # Projects
-| Name | Status |
-| ---- | ------ |
-| [Failed Labs Discord Bot](#failed-labs-discord-bot) | Abandoned |
-| [Minecraft Security System](#minecraft-security-system) | Inactive |
-| [Personal Website](#personal-website) | Active-ish |
-| [SCiPNET Terminal](#scipnet-terminal) | Inactive |
-| [SlackMail](#slackmail) | Active-ish |
+| Name                                                    | Status     |
+| ------------------------------------------------------- | ---------- |
+| [Failed Labs Discord Bot](#failed-labs-discord-bot)     | Abandoned  |
+| [Minecraft Security System](#minecraft-security-system) | Inactive   |
+| [Personal Website](#personal-website)                   | Active-ish |
+| [SCiPNET Terminal](#scipnet-terminal)                   | Inactive   |
+| [SlackMail](#slackmail)                                 | Active-ish |
 # Failed Labs Discord Bot
 A planned Discord bot that was never officially announced or released. Intended to be a custom built bot that handled all required tasks of a friend's Roblox and Discord group: Failed Labs. Built in Python using `discord.py`, it utilized Amazon Web Services as its main data backend (database and storage) and served as the main way I learned what I know about Python. The project has since been abandoned due to a lack of enthusiasm in advertising or otherwise "starting up" the group.
 
-| Item              | Link                                                           |
+| Item              | Value                                                          |
 | ----------------- | -------------------------------------------------------------- |
 | Language          | Python                                                         |
 | GitHub Repository | https://github.com/Failed-Laboratories/Failed-Labs-Discord-Bot |
@@ -26,7 +26,7 @@ A planned Discord bot that was never officially announced or released. Intended 
 # Minecraft Security System
 This is a security system for Modded Minecraft designed to use websockets to communicate with the back end. This is intended to be used with ComputerCraft, though could be adapted to be compatible with OpenComputers. The clients were built using ComputerCraft Lua, and the back end was built using Python. Data related to each security system network is stored in Amazon DynamoDB, with Amazon API Gateway handling connections and routes, and AWS Lambda handling the back end authentication and route logic (what each route is supposed to do). The project is projected to be fairly inexpensive (though not necessarily free) with just one or two networks connected 24/7, however more networks (and/or rapid command usage) can impact costs incurred. 
 
-| Item              | Link                                                         |
+| Item              | Value                                                        |
 | ----------------- | ------------------------------------------------------------ |
 | Language          | ComputerCraft Lua, Python                                    |
 | GitHub Repository | https://github.com/tycoonlover1359/Minecraft-Security-System |
@@ -39,7 +39,7 @@ Sidenote, the domain I use is from the folks over at https://omg.lol/, made by [
 
 This project is technically maintained, as I use it to handle webhooks during testing whenever I don't want to use Amazon API Gateway to handle the webhook request (such as seeing, for the first time, what Slack `POST`s to designated webhooks upon buttons being clicked).
 
-| Item              | Link                             |
+| Item              | Value                            |
 | ----------------- | -------------------------------- |
 | Language          | HTML, CSS, JavaScript, Python    |
 | Link              | https://tycoonlover1359.omg.lol/ |
@@ -51,7 +51,7 @@ A little web "toy" of sorts that I made mainly as a roleplay device for my frien
 
 This project is not often used, but is still fun for me to play with, so I sometimes add new documents and make some improvements (the latter generally adding/editing commands that only print text).
 
-| Item              | Link                             |
+| Item              | Value                            |
 | ----------------- | -------------------------------- |
 | Language          | HTML, CSS, JavaScript, Python    |
 | GitHub Repository |                                  |
@@ -63,7 +63,7 @@ SlackMail currently does not have the ability to use Amazon SES to *send* emails
 
 This project, whlie not exactly maintined in any official capacity, is still used quite frequently by me as it is how I handle emails for services I sign up for (i.e., my Roblox account has its own email, my Discord account has another, different, email, etc.)
 
-| Item              | Link                             |
+| Item              | Value                            |
 | ----------------- | -------------------------------- |
 | Language          | Python                           |
 | GitHub Repository |                                  |

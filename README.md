@@ -34,7 +34,7 @@ My personal website, hosted on [HelioHost](https://heliohost.net) and accessible
 
 The idea in the future may be to write little (or large, who knows?) guides about things that interest me, namely Amazon Web Services (hence the inclusion of the Arc.io CDN, as it would allow me to earn *some* money without serving ads, which I hate just as much as basically everyone else does).
 
-Sidenote, the domain I use is from the folks over at https://omg.lol/, made by [Neatnik, LLC](https://neatnik.net/). They did not give me the domain for free (I bought the domain with my own money), but I have become acquaintances with the owner. While *technically* a subdomain, `omg.lol` is registered on the Public Suffix List, and thus, for most intents and purposes, can be treated as any other Top-Level Domain (i.e., `.com`).
+Sidenote, the domain I use is from the folks over at https://omg.lol/, made by [Neatnik, LLC](https://neatnik.net/). They did not give me the domain for free (I bought the domain with my own money), but I have become acquaintances with the owner. While *technically* a subdomain, `omg.lol` is registered on the Public Suffix List, and thus, for most intents and purposes, can be treated as any other top-level domain (i.e., `.com`).
 
 This project is technically maintained, as I use it to handle webhooks during testing whenever I don't want to use Amazon API Gateway to handle the webhook request (such as seeing, for the first time, what Slack `POST`s to designated webhooks upon buttons being clicked).
 

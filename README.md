@@ -13,6 +13,7 @@ This is a collection of projects I've undertaken over my programming time, usual
 | [Failed Labs Discord Bot](#failed-labs-discord-bot)     | Abandoned  |
 | [Minecraft Security System](#minecraft-security-system) | Inactive   |
 | [Personal Website](#personal-website)                   | Active-ish |
+| [Roblox Library Website](#roblox-library-website)       | Active     |
 | [SCiPNET Terminal](#scipnet-terminal)                   | Inactive   |
 | [SlackMail](#slackmail)                                 | Active-ish |
 # Failed Labs Discord Bot
@@ -45,6 +46,16 @@ This project is technically maintained, as I use it to handle webhooks during te
 | Link              | https://tycoonlover1359.omg.lol/                    |
 | GitHub Repository | https://github.com/tycoonlover1359/Personal-Website |
 | Domain Registrar  | https://omg.lol/                                    |
+
+# Roblox Library Website
+An in-progress website for the [Roblox Library Community](https://www.roblox.com/groups/2735192/ROBLOX-Library-Community) and its associated [Roblox Library 2021](https://www.roblox.com/games/331780620/Library). The site is being developed *mostly* by me, both the back end and front end. (Some other programmers from the Roblox Library Development Team are assisting, but this is, for the most part, a one-man job.) The front end is written in JavaScript and Svelte, an alternative framework roughly equivalent to React, Angular, or Vue. As of this commit, the back end has not yet been started, but is likely to be written in JavaScript (via Node.js). The site is intended to be part of the Library's technological expansion, providing both a homepage for information about the Library (and community group) as well as a staff portal containing the necessities for staff members to complete their jobs.
+
+**Disclaimer:** I, as of this commit on February 1st, 2020, am a Library Manager and scripter (aka programmer) for the Roblox Library. In any case, the opinions I give do not necessarily represent those of the Roblox Library, either its community or its staff members.
+
+| Item              | Value                                                           |
+| ----------------- | --------------------------------------------------------------- |
+| Language          | HTML, CSS, JavaScript                                           |
+| GitHub Repository | https://github.com/Roblox-Public-Library/Roblox-Library-Website |
 
 # SCiPNET Terminal
 A little web "toy" of sorts that I made mainly as a roleplay device for my friends and I to use when roleplaying as SCP Foundation staffers (when/if that ever happens again). Made using [jQuery Terminal](https://terminal.jcubic.pl/) by jcubic, the app basically acts as a front end to a Python Flask server (also hosted on HelioHost). Commands (and their parameters) are sent almost directly to the server with little (if any, for some commands) action taken by the front end; the server handles much of the heavy lifting, including interacting with Amazon S3, which is where SCP articles are stored (due to the terminal's custom formatting, each article must be added individually to be stylized correctly; though I'm sure there are programmatic ways of handling this, I just wasn't sure if the effort required to do this was worth it).

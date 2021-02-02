@@ -39,22 +39,22 @@ Sidenote, the domain I use is from the folks over at https://omg.lol/, made by [
 
 This project is technically maintained, as I use it to handle webhooks during testing whenever I don't want to use Amazon API Gateway to handle the webhook request (such as seeing, for the first time, what Slack `POST`s to designated webhooks upon buttons being clicked).
 
-| Item              | Value                            |
-| ----------------- | -------------------------------- |
-| Language          | HTML, CSS, JavaScript, Python    |
-| Link              | https://tycoonlover1359.omg.lol/ |
-| GitHub Repository |                                  |
-| Domain Registrar  | https://omg.lol/                 |
+| Item              | Value                                               |
+| ----------------- | --------------------------------------------------- |
+| Language          | HTML, CSS, JavaScript, Python                       |
+| Link              | https://tycoonlover1359.omg.lol/                    |
+| GitHub Repository | https://github.com/tycoonlover1359/Personal-Website |
+| Domain Registrar  | https://omg.lol/                                    |
 
 # SCiPNET Terminal
 A little web "toy" of sorts that I made mainly as a roleplay device for my friends and I to use when roleplaying as SCP Foundation staffers (when/if that ever happens again). Made using [jQuery Terminal](https://terminal.jcubic.pl/) by jcubic, the app basically acts as a front end to a Python Flask server (also hosted on HelioHost). Commands (and their parameters) are sent almost directly to the server with little (if any, for some commands) action taken by the front end; the server handles much of the heavy lifting, including interacting with Amazon S3, which is where SCP articles are stored (due to the terminal's custom formatting, each article must be added individually to be stylized correctly; though I'm sure there are programmatic ways of handling this, I just wasn't sure if the effort required to do this was worth it).
 
 This project is not often used, but is still fun for me to play with, so I sometimes add new documents and make some improvements (the latter generally adding/editing commands that only print text).
 
-| Item              | Value                            |
-| ----------------- | -------------------------------- |
-| Language          | HTML, CSS, JavaScript, Python    |
-| GitHub Repository |                                  |
+| Item              | Value                                               |
+| ----------------- | --------------------------------------------------- |
+| Language          | HTML, CSS, JavaScript, Python                       |
+| GitHub Repository | https://github.com/tycoonlover1359/SCiPNET-Terminal |
 
 # SlackMail
 A mainly back-end-based system that handles reciving email to any email address with the `tycoonlover1359.omg.lol` domain; in other words, emails addressed to `tycoonlover1359@tycoonlover1359.omg.lol`, `hello+world@tycoonlover1359.omg.lol`, etc., are all handled by this system. SlackMail simply handles the emails after they've been placed in Amazon S3 by Amazon Simple Email Service. SlackMail will download the email from Amazon S3, parse it for who sent it, what address received it, the subject line, and date and time received. SlackMail then saves this email to a more sensible location in Amazon S3 (i.e., `tycoonlover1359.omg.lol/hello/world/` instead of simply `asdflkjasdflakj13lkj123lkj.eml` in the bucket's root directory) and sends a message to a Slack channel containing who sent it, where it was received, and the subject line, along with buttons to allow me to download or delete the email.

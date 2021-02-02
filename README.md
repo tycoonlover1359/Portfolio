@@ -8,12 +8,13 @@ This is a collection of projects I've undertaken over my programming time, usual
 - **Abandoned** - The project is rarely, if ever, used in its current state, and there are no plans to update it for any reason.
 
 # Projects
-- [Failed Labs Discord Bot (Abandoned)](#failed-labs-discord-bot)
-- [Minecraft Security System](#minecraft-security-system)
-- [Personal Website (Active-ish)](#personal-website)
-- [SCiPNET Terminal (Inactive)](#scipnet-terminal)
-- [SlackMail (Active-ish)](#slackmail)
-
+| Name | Status |
+| ---- | ------ |
+| [Failed Labs Discord Bot](#failed-labs-discord-bot) | Abandoned |
+| [Minecraft Security System](#minecraft-security-system) | Inactive |
+| [Personal Website](#personal-website) | Active-ish |
+| [SCiPNET Terminal](#scipnet-terminal) | Inactive |
+| [SlackMail](#slackmail) | Active-ish |
 # Failed Labs Discord Bot
 A planned Discord bot that was never officially announced or released. Intended to be a custom built bot that handled all required tasks of a friend's Roblox and Discord group: Failed Labs. Built in Python using `discord.py`, it utilized Amazon Web Services as its main data backend (database and storage) and served as the main way I learned what I know about Python. The project has since been abandoned due to a lack of enthusiasm in advertising or otherwise "starting up" the group.
 

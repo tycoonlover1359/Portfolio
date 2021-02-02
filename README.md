@@ -63,7 +63,7 @@ SlackMail currently does not have the ability to use Amazon SES to *send* emails
 
 This project, whlie not exactly maintined in any official capacity, is still used quite frequently by me as it is how I handle emails for services I sign up for (i.e., my Roblox account has its own email, my Discord account has another, different, email, etc.)
 
-| Item              | Value                            |
-| ----------------- | -------------------------------- |
-| Language          | Python                           |
-| GitHub Repository |                                  |
+| Item              | Value                                        |
+| ----------------- | -------------------------------------------- |
+| Language          | Python                                       |
+| GitHub Repository | https://github.com/tycoonlover1359/SlackMail |
